@@ -4,9 +4,9 @@ import { useState } from 'react';
 export const LoanCalculator = () => {
   const [category, setCategory] = useState('');
   const [subcategory, setSubcategory] = useState('');
-  const [deposit, setDeposit] = useState<number | ''>('');
-  const [period, setPeriod] = useState<number>(1);
-  const [result, setResult] = useState<number | null>(null);
+  const [deposit, setDeposit] = useState('');
+  const [period, setPeriod] = useState(1);
+  const [result, setResult] = useState(null);
 
   const calculateLoan = () => {
     if (deposit !== '' && period) {
