@@ -6,7 +6,6 @@ export const LoginPage = () => {
 
   const onSubmit = (data) => {
     console.log(data);
-  
   };
 
   return (
